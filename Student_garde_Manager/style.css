@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+.form-container, .btn-container {
+    margin: 20px 0;
+}
+
+input, button {
+    padding: 8px;
+    margin: 5px;
+    font-size: 14px;
+}
+
+button {
+    cursor: pointer;
+    background: #4CAF50;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+table {
+    width: 70%;
+    margin: auto;
+    border-collapse: collapse;
+    background: white;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background: #f2f2f2;
+}

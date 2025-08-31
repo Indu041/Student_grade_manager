@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Grade Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>📚 Student Grade Manager</h1>
+
+    <div class="form-container">
+        <input type="text" id="name" placeholder="Enter Name">
+        <input type="number" id="rollNo" placeholder="Enter Roll No">
+        <input type="number" id="marks" placeholder="Enter Marks">
+        <button onclick="addStudent()">Add Student</button>
+    </div>
+
+    <div class="btn-container">
+        <button onclick="sortByName()">Sort by Name</button>
+        <button onclick="sortByMarks()">Sort by Marks</button>
+        <input type="number" id="searchRoll" placeholder="Search by Roll No">
+        <button onclick="searchStudent()">Search</button>
+    </div>
+
+    <table id="studentTable">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Roll No</th>
+                <th>Marks</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
